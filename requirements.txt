@@ -1,0 +1,1 @@
+-e git+https://github.com/CraftySpaz/MCRcon.git#egg=MCRcon-0.0.0
