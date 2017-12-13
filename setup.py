@@ -16,7 +16,7 @@ with io.open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md
 
 setup(
     name='minercon',
-    version='0.1.0',
+    version='0.1.1',
     description='A Python2/3 RCON client for Minecraft',
     long_description=long_description,
     author='CraftySpaz',
