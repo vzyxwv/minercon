@@ -119,7 +119,7 @@ def format_response(response):
     global PRINT_COLORS, COLOR_CODES
 
     lines = response.splitlines()
-    regex = re.compile(r'\u00A7([0-9a-f])', re.IGNORECASE|re.UNICODE)
+    regex = re.compile(u'\u00A7([0-9a-f])', re.IGNORECASE)
     out = ''
 
     # Format each line of response individually
