@@ -70,3 +70,4 @@ Resources
 * [MineRCON on GitHub](https://github.com/CraftySpaz)
 * [MCRcon by @barneygale](https://github.com/barneygale/MCRcon)
 * [RCON documentation for Minecraft](http://wiki.vg/RCON)
+* [A sample systemd service using MinerCON on stop](https://gist.github.com/CraftySpaz/0da888af46a7ba9290a98f808447cea7)
