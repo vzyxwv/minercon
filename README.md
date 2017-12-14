@@ -18,7 +18,7 @@ Features
 
 ### Planned:
 * Configurable timeout w/ watchdog functionality
-* IPv6 support
+* IPv6 support (needs work in [MCRcon](https://github.com/CraftySpaz/MCRcon))
 * Anything cool that comes in via. well-formed Pull Request
 
 
@@ -36,7 +36,7 @@ If the script completes without errors, you are ready to start using MineRCON!
 
 ---
 
-Alternatively, you can install MineRCON directly from GitHub by running `pip install git+https://github.com/CraftySpaz/minercon.git --process-dependency-links`, or simply by saving [minercon.py](https://raw.githubusercontent.com/CraftySpaz/minercon/master/minercon.py>) and [mcrcon.py](https://raw.githubusercontent.com/CraftySpaz/MCRcon/master/mcrcon.py>) into a directory together.
+Alternatively, you can install MineRCON directly from GitHub by running `pip install git+https://github.com/CraftySpaz/minercon.git --process-dependency-links`, or simply by saving [minercon.py](https://raw.githubusercontent.com/CraftySpaz/minercon/master/minercon.py) and [mcrcon.py](https://raw.githubusercontent.com/CraftySpaz/MCRcon/master/mcrcon.py) into a directory together.
 
 
 Usage
@@ -67,7 +67,8 @@ Usage
 Resources
 ---------
 
-* [MineRCON on GitHub](https://github.com/CraftySpaz)
-* [MCRcon by @barneygale](https://github.com/barneygale/MCRcon)
+* [MineRCON on GitHub](https://github.com/CraftySpaz/minercon)
+* [CraftySpaz's fork of MCRcon](https://github.com/CraftySpaz/MCRcon) with TLS support
+* [The original MCRcon](https://github.com/barneygale/MCRcon) by barneygale
 * [RCON documentation for Minecraft](http://wiki.vg/RCON)
 * [A sample systemd service using MinerCON on stop](https://gist.github.com/CraftySpaz/0da888af46a7ba9290a98f808447cea7)
